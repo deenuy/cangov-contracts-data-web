@@ -71,5 +71,10 @@ output/*
 # ------------------------------
 *.sqlite3
 *.db
-data/*
-!data/.gitkeep
+# Ignore ONLY raw data (large files)
+data/raw_data/*
+!data/raw_data/.gitkeep
+
+# Allow curated datasets
+!data/
+!data/*.csv
