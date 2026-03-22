@@ -1,6 +1,8 @@
 # 🇨🇦 Government of Canada Contract Data Analysis
 
-This repository contains Python-based analysis of Government of Canada procurement data published through the **Proactive Disclosure of Contracts** initiative.
+This repository contains Python-based analysis of Government of Canada procurement data published through the Proactive Disclosure of Contracts initiative, covering contracts over $10,000.
+
+The analysis focuses on data spanning multiple years (1999–2026), enabling both long-term trend analysis and recent procurement insights.
 
 The project explores how public funds are distributed across vendors, organizations, and contract categories using data cleaning, exploratory analysis, and visualization.
 
