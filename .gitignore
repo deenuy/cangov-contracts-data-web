@@ -71,6 +71,5 @@ output/*
 # ------------------------------
 *.sqlite3
 *.db
-data
-data/contracts_above_10k.csv
-data/raw_data/contracts_above_10k.csv
+data/*
+!data/.gitkeep
