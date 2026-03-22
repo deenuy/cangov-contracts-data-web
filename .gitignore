@@ -1,9 +1,76 @@
-.Rproj.user
-.Rhistory
-.RData
-.Ruserdata
+# ------------------------------
+# Python
+# ------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.env/
+.env.*
+.venv/
+
+# ------------------------------
+# Jupyter Notebook
+# ------------------------------
+.ipynb_checkpoints/
+
+# ------------------------------
+# IDE / Editor
+# ------------------------------
+.idea/
+.vscode/
+*.iml
+
+# ------------------------------
+# OS files
+# ------------------------------
 .DS_Store
 Thumbs.db
-.hugo_build.lock
-/public/
-/resources/
+
+# ------------------------------
+# Logs
+# ------------------------------
+*.log
+
+# ------------------------------
+# Build / packaging
+# ------------------------------
+build/
+dist/
+*.egg-info/
+
+# ------------------------------
+# Data files (IMPORTANT)
+# ------------------------------
+data/*
+!data/.gitkeep
+
+# ------------------------------
+# Outputs (charts, exports, CSVs)
+# ------------------------------
+output/*
+!output/.gitkeep
+
+# ------------------------------
+# Environment / secrets
+# ------------------------------
+.env
+*.env
+
+# ------------------------------
+# Lock files (optional decision)
+# ------------------------------
+# If using uv or poetry, KEEP lock file for reproducibility
+# Comment this out if you want to commit uv.lock
+# uv.lock
+
+# ------------------------------
+# Misc
+# ------------------------------
+*.sqlite3
+*.db
+data
+data/contracts_above_10k.csv
+data/raw_data/contracts_above_10k.csv
