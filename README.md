@@ -1,9 +1,3 @@
-Good instinct—that opening is clean and authoritative. Let’s keep that tone, modernize it for your Python work, and align it with your analysis.
-
-Here’s a **refined README with that style preserved but elevated**:
-
----
-
 # 🇨🇦 Government of Canada Contract Data Analysis
 
 This repository contains Python-based analysis of Government of Canada procurement data published through the **Proactive Disclosure of Contracts** initiative.
